@@ -6,7 +6,7 @@ body{
     background: #181818;
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding: 0 1.5em;
+    
 }
 
 
@@ -132,5 +132,9 @@ body{
         padding: 1em;
         text-align: left;
     } 
+    .contact-form form{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
